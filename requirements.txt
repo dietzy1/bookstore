@@ -1,0 +1,20 @@
+The specifications of the assignment is:
+
+The android application must be coded in Kotlin using the framework JetPack-Compose.
+
+It should expose three views!
+
+A "front" view that has a menu of some sort. That could be a ModalNavigationDrawer menu or some other implementation of a menu.
+A list view: When one of the menu items is tapped a list of items should be shown. For example: The first menu contains an menu item "Friends" and when tapping it, a list of  items containing rudimentary information about each friend is displayed in a list.
+When an item of this list is tapped a new view of ALL details of the item should be shown.
+Each view should be implemented using activities!!!. It might not be the solution in real life, but this is to be able to evaluate your learning outcome of what we have discussed so far!
+The data does not have to be "friends" of course, but could be books, food recipes etc. It should be your own invention. So data can be anything, where a list can be shown and individual items clicked to show details. It is expected that some effort is put into the design. So it cannot simply be say non structured texts all of it.
+
+The list and details view should be equipped with a back button, that directs the user back to the previous view!
+
+This constraint is introduced in order to force you to make some manual navigation, because the usual back button might work if you use Activities for screens.
+
+The data that is used to fill the menu list and items can be hardcoded in the app, but the data should be separated into a self a contained part of the app.
+
+That is the data-providing part of the app should not be mixed directly into the UI components. It could be placed in a Repository class of sorts. You can also include the use of view model in order to practice this technique, although not required.
+
