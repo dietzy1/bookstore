@@ -6,12 +6,6 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.List
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
@@ -27,7 +21,7 @@ class MainActivity : ComponentActivity() {
         MenuItemModel(
             "1",
             "All Books",
-            Icons.Default.Info,
+
             "Browse all books"
         ) {
             val intent = Intent(this, BooksActivity::class.java)
@@ -37,7 +31,7 @@ class MainActivity : ComponentActivity() {
         MenuItemModel(
             "2",
             "Fiction",
-            Icons.Default.Favorite,
+
             "Fiction books"
         ) {
             val intent = Intent(this, GenreBooksActivity::class.java).apply {
@@ -49,7 +43,7 @@ class MainActivity : ComponentActivity() {
         MenuItemModel(
             "3",
             "Science Fiction",
-            Icons.Default.Search,
+
             "Science Fiction books"
         ) {
             val intent = Intent(this, GenreBooksActivity::class.java).apply {
@@ -61,7 +55,7 @@ class MainActivity : ComponentActivity() {
         MenuItemModel(
             "4",
             "Fantasy",
-            Icons.Default.List,
+
             "Fantasy books"
         ) {
             val intent = Intent(this, GenreBooksActivity::class.java).apply {
@@ -73,7 +67,7 @@ class MainActivity : ComponentActivity() {
         MenuItemModel(
             "5",
             "Romance",
-            Icons.Default.Favorite,
+
             "Romance books"
         ) {
             val intent = Intent(this, GenreBooksActivity::class.java).apply {
@@ -85,7 +79,7 @@ class MainActivity : ComponentActivity() {
         MenuItemModel(
             "6",
             "Mystery",
-            Icons.Default.Warning,
+
             "Mystery books"
         ) {
             val intent = Intent(this, GenreBooksActivity::class.java).apply {

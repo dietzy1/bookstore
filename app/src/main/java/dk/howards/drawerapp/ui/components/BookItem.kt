@@ -110,7 +110,7 @@ fun BookItemPreview() {
             "F. Scott Fitzgerald",
             Genre.FICTION,
             1925,
-            R.drawable.flag_of_japan
+            R.drawable.gatsby
         )
         BookItem(book = book, onItemClick = {})
     }

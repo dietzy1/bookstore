@@ -26,7 +26,7 @@ class BooksActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Column {
-                        Button(onClick = { finish() }) {
+                        Button(onClick = { finish()}) {
                             Text(
                                 text = "Back",
                                 style = TextStyle(color = MaterialTheme.colorScheme.onSurface)

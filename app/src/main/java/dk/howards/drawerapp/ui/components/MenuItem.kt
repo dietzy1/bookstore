@@ -25,13 +25,6 @@ fun MenuItem(model: MenuItemModel) {
             )
         },
         selected = false,
-        icon = {
-            Icon(
-                imageVector = model.icon,
-                contentDescription = model.contentDescription,
-                tint = MaterialTheme.colorScheme.onSurface
-            )
-        },
         onClick = {
             model.onClick()
         }
@@ -47,7 +40,6 @@ fun MenuItemPreview() {
             model = MenuItemModel(
                 "1",
                 "Home",
-                Icons.Default.Home,
                 "Home"
             ) { println("click") })
     }

@@ -8,15 +8,7 @@ enum class Genre {
     SCIENCE_FICTION,
     FANTASY,
     MYSTERY,
-    THRILLER,
     ROMANCE,
-    HISTORY,
-    BIOGRAPHY,
-    CHILDREN,
-    YOUNG_ADULT,
-    HORROR,
-    SCIENCE,
-    POETRY
 }
 
 data class BookOverview(

@@ -16,7 +16,7 @@ object BookRepository {
                 "F. Scott Fitzgerald",
                 Genre.FICTION,
                 1925,
-                R.drawable.flag_of_japan
+                R.drawable.gatsby
             ),
             "9780743273565",
             "Scribner",
@@ -47,7 +47,7 @@ object BookRepository {
                 "Harper Lee",
                 Genre.FICTION,
                 1960,
-                R.drawable.flag_tanzania
+                R.drawable.mockingbird
             ),
             "9780061120084",
             "HarperCollins",
@@ -78,7 +78,7 @@ object BookRepository {
                 "George Orwell",
                 Genre.SCIENCE_FICTION,
                 1949,
-                R.drawable.earth
+                R.drawable.george
             ),
             "9780451524935",
             "Signet Classic",
@@ -109,7 +109,7 @@ object BookRepository {
                 "Jane Austen",
                 Genre.ROMANCE,
                 1813,
-                R.drawable.flag_of_japan
+                R.drawable.prideprejudice
             ),
             "9780141439518",
             "Penguin Classics",
@@ -140,7 +140,7 @@ object BookRepository {
                 "J.R.R. Tolkien",
                 Genre.FANTASY,
                 1937,
-                R.drawable.flag_tanzania
+                R.drawable.hobbit
             ),
             "9780547928227",
             "Houghton Mifflin Harcourt",

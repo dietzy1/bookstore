@@ -1,20 +1,16 @@
 package dk.howards.drawerapp.ui.components
 
-import android.util.Log
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountBox
-import androidx.compose.material.icons.filled.Call
-import androidx.compose.material.icons.filled.Home
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.DrawerValue
-import androidx.compose.material3.Text
 import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import dk.howards.drawerapp.model.MenuItemModel
-import dk.howards.drawerapp.ui.theme.DrawerAppTheme
 import kotlinx.coroutines.launch
 
 @Composable
@@ -26,7 +22,8 @@ fun DrawerMenu(
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
     Column {
         Row {
-            TopBar(title = "My Cool App") {
+            TopBar(title = "Open menu",
+            ) {
                 scope.launch {
                     drawerState.open()
                 }
